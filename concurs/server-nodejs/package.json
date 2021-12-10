@@ -1,0 +1,21 @@
+{
+  "name": "streaming",
+  "version": "1.0.0",
+  "description": "Streaming python opencv to html",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js & nodemon camera.js & nodemon camera2.js"
+  },
+  "author": "Nannam Aksorn",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "http": "0.0.0",
+    "mongodb": "^4.2.1",
+    "nodemon": "^2.0.15",
+    "pug": "^3.0.2",
+    "redis": "^2.8.0",
+    "socket.io": "^4.4.0"
+  }
+}
